@@ -13,11 +13,14 @@ This repository contains the first task of the RSNA 2022 challenge, i.e., develo
 ## Description
 The project consists in four main steps which are briefly summarized as follows
 
-1. **Data Preparation**: The data preparation phase includes multiple transformations performed over the CT scans and the segmentation masks. We resize CT scans, which differs in length, to a **target spatial size** ensuring that all inputs to the model have the same dimensions. In addition, we scale the intensity of each volume. We exploit many image augmentation techniques. For what concern the multi-class segmentation masks we apply **binary one-hot encoding**.
+### 1. Data Preparation
+The data preparation phase includes multiple transformations performed over the CT scans and the segmentation masks. We resize CT scans, which differs in length, to a **target spatial size** ensuring that all inputs to the model have the same dimensions. In addition, we scale the intensity of each volume. We exploit many image augmentation techniques. For what concern the multi-class segmentation masks we apply **binary one-hot encoding**.
 
-2. **Model Implementation**: The 3D segmentation model has **U-Net** architecture which is state-of-the-art for 3D segmentation of medical images. We exploit [MONAI](https://docs.monai.io/en/stable/networks.html#unet) library for its implementation.
+### 2. Model Implementation
+The 3D segmentation model has **U-Net** architecture which is state-of-the-art for 3D segmentation of medical images. We exploit [MONAI](https://docs.monai.io/en/stable/networks.html#unet) library for its implementation.
 
-3. **Model Training** The model has been trained using **AdamW** optimizer with learning rate scheduler. The loss function employed is the weighted sum of **Dice Loss** and **BCE (Binary Cross Entropy) Loss**.
+### 3. Model Training
+The model has been trained using **AdamW** optimizer with learning rate scheduler. The loss function employed is the weighted sum of **Dice Loss** and **BCE (Binary Cross Entropy) Loss**.
 ```math
 \text{Loss} = \alpha \cdot \text{BCE} + \beta \cdot \text{Dice Loss}
 ```
@@ -27,7 +30,7 @@ The model has been trained for 320 epochs.
   <img src="https://github.com/user-attachments/assets/2b5617d8-7eca-4d9c-801b-2c295628779d" alt="metric" width="50%">
 </p>
 
-4. **Prediction**
+### 4. Prediction
 
 
 ## Repository Overview
