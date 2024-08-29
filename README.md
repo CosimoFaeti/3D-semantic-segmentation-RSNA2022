@@ -14,7 +14,7 @@ This repository contains the first task of the RSNA 2022 challenge, i.e., develo
 
 ## Repository Overview
 At the root level of this repository, you will find the code for exploratory data analysis, the training and prediction of the 3D semantic segmentation model, as well as files related to the model's configuration and results. More specifically:
-* **[eda.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/eda.ipynb)**: This notebook contains a comprehensive exploratory data analysis (EDA) of the dataset, including loading the data, visualizing images, and analyzing feature distributions;
+* **[eda.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/eda.ipynb)**: This notebook contains an exploratory data analysis (EDA) of the dataset, including loading the data, visualizing images, and analyzing feature distributions;
 * **[3d-semantic-segmentation.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation.ipynb)**: This notebook documents the initial training process of the 3D U-Net model, including setting up the model architecture, defining training parameters, and running the first training iterations;
 * **[3d-semantic-segmentation-resume-training.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation-resume-training.ipynb)**: This notebook is used for resuming the training of the 3D U-Net model from a saved checkpoint, allowing the training process to continue given the GPU runtime limits imposed by the platform;
 * **[3d-semantic-segmentation-prediction.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation-prediction.ipynb)**: This notebook is dedicated to generating predictions using the trained 3D U-Net model on the test data, and evaluating the predictions through visualizations to assess model effectiveness.
@@ -24,23 +24,3 @@ At the root level of this repository, you will find the code for exploratory dat
 ## Collaborators
 ---
 * [Riccardo Galarducci](https://github.com/RiccardoGalarducci)
-
-
-
-
-
-
-Pre-processing
-
-CausalInference_preprocessing.ipynb : contains the pre-processing step
-Interrupted Time Series model:
-
-CausalInference_ITS.ipynb : contains the implementation of ITS model (Ordinary Least Squares, OLS)
-Bayesian Structural Time Series model:
-
-CausalInference_BSTS_1.ipynb : contains the implementation of BSTS model (Maximum Likelihood Estimation, MLE)
-CausalInference_BSTS_2.ipynb : contains the implementation of BSTS model (Variational Inference, VI)
-CausalInference_BSTS_3.ipynb : contains the implementation of BSTS model (Hamiltonian Monte Carlo, HMC)
-Inference analysis:
-
-Inference_FINAL.ipynb : contains the inference analysis
