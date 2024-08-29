@@ -36,7 +36,10 @@ At the root level of this repository, you will find the code for exploratory dat
 * **[3d-semantic-segmentation.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation.ipynb)**: This notebook documents the initial training process of the 3D U-Net model, including setting up the model architecture, defining training parameters, and running the first training iterations;
 * **[3d-semantic-segmentation-resume-training.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation-resume-training.ipynb)**: This notebook is used for resuming the training of the 3D U-Net model from a saved checkpoint, allowing the training process to continue given the GPU runtime limits imposed by the platform;
 * **[3d-semantic-segmentation-prediction.ipynb](https://github.com/CosimoFaeti/3D-semantic-segmentation-RSNA2022/blob/main/3d-semantic-segmentation-prediction.ipynb)**: This notebook is dedicated to generating predictions using the trained 3D U-Net model on the test data, and evaluating the predictions through visualizations to assess model effectiveness.
-* **file** 
+* **[file]()**: This folder contains resulting files from the model training process:
+  * **`HM8569LQ_losses_metrics_combined.csv`**: A CSV file with training and validation losses and metrics for all 320 epochs.
+  * **`HM8659LQ_best_model`**: The best-performing model saved according to the evaluation metric.
+  * **`HM8659LQ_config.pkl`**: A pickle file containing the configuration parameters used for the 3D U-Net model.
 
  
 ## Collaborators
