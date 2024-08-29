@@ -26,8 +26,8 @@ The model has been trained using **AdamW** optimizer with learning rate schedule
 ```
 The model has been trained for 320 epochs.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b70b36ba-8360-4a81-941e-175fc14a6084" alt="losses" width="50%">
-  <img src="https://github.com/user-attachments/assets/2b5617d8-7eca-4d9c-801b-2c295628779d" alt="metric" width="50%">
+  <img src="https://github.com/user-attachments/assets/b70b36ba-8360-4a81-941e-175fc14a6084" alt="losses" width="45%">
+  <img src="https://github.com/user-attachments/assets/2b5617d8-7eca-4d9c-801b-2c295628779d" alt="metric" width="45%">
 </p>
 
 ### 4. Prediction
