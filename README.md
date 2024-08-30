@@ -31,6 +31,11 @@ The model has been trained for 320 epochs.
 </p>
 
 ### 4. Prediction
+As last step we predict the segmentation masks for the unlabelled CT scans using the best trained model according to the model selection phase.
+
+The figure below shows the segmentation of the C3 vertebrae for a random patient.
+
+TODO: Segmentation mask pics
 
 
 ## Repository Overview
