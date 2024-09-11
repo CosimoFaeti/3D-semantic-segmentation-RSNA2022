@@ -32,12 +32,20 @@ We exploited two set of parameters:
 * *Model BCE-DiceLoss*: $` \alpha = 0.05 `$ and $` \beta = 0.95 `$
 * *Model DiceLoss*: $` \alpha = 0.0 `$ and $` \beta = 1.0 `$
 
-The model DiceLoss has been trained for 560 epochs, while the model BCE-DiceLoss for 530 epochs. The figures below shows the losses behaviour during training (left) and the dice metrics used for model evaluation (right) (Model DiceLoss).
+The model DiceLoss has been trained for 560 epochs, while the model BCE-DiceLoss for 530 epochs. The figures below shows the losses behaviour during training (left) and the dice metrics used for model evaluation (right), first model DiceLoss and then model BCE-DiceLoss.
 
 <p align="center">
-  <img width="45%" src=https://github.com/user-attachments/assets/03030c9e-1260-4839-ac87-22058fa00b79
+  <img width="40%" src=https://github.com/user-attachments/assets/03030c9e-1260-4839-ac87-22058fa00b79
 >
-  <img width="45%" src=https://github.com/user-attachments/assets/3fa700a7-3bd8-4565-9c7b-1a0ca7e106d8
+  <img width="40%" src=https://github.com/user-attachments/assets/3fa700a7-3bd8-4565-9c7b-1a0ca7e106d8
+>
+</p>
+
+
+<p align="center">
+  <img width="45%" src=https://github.com/user-attachments/assets/849b0ae4-f188-44bb-950f-6d627f5fd942
+>
+  <img width="45%" src=https://github.com/user-attachments/assets/04d074af-ece4-43a6-89ff-a2c957dbc14e
 >
 </p>
 
